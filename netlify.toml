@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  
+[[deploy]]
+  provider = "netlify"
+  trigger_branch = "main"
